@@ -2,7 +2,7 @@
 package net.titanscraft.launchercore.restful;
 
 public class PlatformConstants {
-    public static final String PLATFORM = "http://www.technicpack.net/";
+    public static final String PLATFORM = "http://www.titanscraft.net/";
 
     public static final String API = PLATFORM + "api/";
 
