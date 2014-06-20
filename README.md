@@ -1,2 +1,2 @@
-LauncherCore
+LauncherCore 
 ============
