@@ -1,5 +1,5 @@
 
-package main.java.net.titanscraft.launchercore.minecraft;
+package net.titanscraft.launchercore.minecraft;
 
 public class MojangConstants {
     public static final String baseURL = "https://s3.amazonaws.com/Minecraft.Download/";

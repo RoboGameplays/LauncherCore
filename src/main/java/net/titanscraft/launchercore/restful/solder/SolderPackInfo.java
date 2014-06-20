@@ -1,13 +1,13 @@
 
-package main.java.net.titanscraft.launchercore.restful.solder;
+package net.titanscraft.launchercore.restful.solder;
 
-import main.java.net.titanscraft.launchercore.exception.BuildInaccessibleException;
-import main.java.net.titanscraft.launchercore.exception.RestfulAPIException;
-import main.java.net.titanscraft.launchercore.install.user.User;
-import main.java.net.titanscraft.launchercore.restful.Modpack;
-import main.java.net.titanscraft.launchercore.restful.PackInfo;
-import main.java.net.titanscraft.launchercore.restful.Resource;
-import main.java.net.titanscraft.launchercore.restful.RestObject;
+import net.titanscraft.launchercore.exception.BuildInaccessibleException;
+import net.titanscraft.launchercore.exception.RestfulAPIException;
+import net.titanscraft.launchercore.install.user.User;
+import net.titanscraft.launchercore.restful.Modpack;
+import net.titanscraft.launchercore.restful.PackInfo;
+import net.titanscraft.launchercore.restful.Resource;
+import net.titanscraft.launchercore.restful.RestObject;
 
 import java.util.List;
 

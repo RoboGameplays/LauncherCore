@@ -1,31 +1,13 @@
-/*
- * This file is part of Technic Launcher Core.
- * Copyright (C) 2013 Syndicate, LLC
- *
- * Technic Launcher Core is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * Technic Launcher Core is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License,
- * as well as a copy of the GNU Lesser General Public License,
- * along with Technic Launcher Core.  If not, see <http://www.gnu.org/licenses/>.
- */
 
-package main.java.net.titanscraft.launchercore.install;
+package net.titanscraft.launchercore.install;
 
-import main.java.net.titanscraft.launchercore.mirror.MirrorStore;
-import main.java.net.titanscraft.launchercore.mirror.download.Download;
-import main.java.net.titanscraft.launchercore.restful.PackInfo;
-import main.java.net.titanscraft.launchercore.restful.Resource;
-import main.java.net.titanscraft.launchercore.util.MD5Utils;
-import main.java.net.titanscraft.launchercore.util.ResourceUtils;
-import main.java.net.titanscraft.launchercore.util.Utils;
+import net.titanscraft.launchercore.mirror.MirrorStore;
+import net.titanscraft.launchercore.mirror.download.Download;
+import net.titanscraft.launchercore.restful.PackInfo;
+import net.titanscraft.launchercore.restful.Resource;
+import net.titanscraft.launchercore.util.MD5Utils;
+import net.titanscraft.launchercore.util.ResourceUtils;
+import net.titanscraft.launchercore.util.Utils;
 import org.apache.commons.io.FileUtils;
 
 import javax.imageio.IIOException;

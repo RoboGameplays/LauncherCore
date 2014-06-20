@@ -1,14 +1,14 @@
-package main.java.net.titanscraft.launchercore.install.tasks;
+package net.titanscraft.launchercore.install.tasks;
 
-import main.java.net.titanscraft.launchercore.exception.DownloadException;
-import main.java.net.titanscraft.launchercore.install.InstalledPack;
-import main.java.net.titanscraft.launchercore.minecraft.CompleteVersion;
-import main.java.net.titanscraft.launchercore.minecraft.Library;
-import main.java.net.titanscraft.launchercore.util.OperatingSystem;
-import main.java.net.titanscraft.launchercore.util.Utils;
-import main.java.net.titanscraft.launchercore.util.verifiers.IFileVerifier;
-import main.java.net.titanscraft.launchercore.util.verifiers.MD5FileVerifier;
-import main.java.net.titanscraft.launchercore.util.verifiers.ValidZipFileVerifier;
+import net.titanscraft.launchercore.exception.DownloadException;
+import net.titanscraft.launchercore.install.InstalledPack;
+import net.titanscraft.launchercore.minecraft.CompleteVersion;
+import net.titanscraft.launchercore.minecraft.Library;
+import net.titanscraft.launchercore.util.OperatingSystem;
+import net.titanscraft.launchercore.util.Utils;
+import net.titanscraft.launchercore.util.verifiers.IFileVerifier;
+import net.titanscraft.launchercore.util.verifiers.MD5FileVerifier;
+import net.titanscraft.launchercore.util.verifiers.ValidZipFileVerifier;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;

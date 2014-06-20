@@ -1,8 +1,8 @@
-package main.java.net.titanscraft.launchercore.install.user.skins;
+package net.titanscraft.launchercore.install.user.skins;
 
-import main.java.net.titanscraft.launchercore.install.user.User;
-import main.java.net.titanscraft.launchercore.mirror.MirrorStore;
-import main.java.net.titanscraft.launchercore.util.Utils;
+import net.titanscraft.launchercore.install.user.User;
+import net.titanscraft.launchercore.mirror.MirrorStore;
+import net.titanscraft.launchercore.util.Utils;
 
 import java.io.IOException;
 import java.util.logging.Level;

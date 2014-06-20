@@ -1,7 +1,7 @@
-package main.java.net.titanscraft.launchercore.install.tasks;
+package net.titanscraft.launchercore.install.tasks;
 
-import main.java.net.titanscraft.launchercore.minecraft.ExtractRules;
-import main.java.net.titanscraft.launchercore.util.ZipUtils;
+import net.titanscraft.launchercore.minecraft.ExtractRules;
+import net.titanscraft.launchercore.util.ZipUtils;
 
 import java.io.File;
 import java.io.IOException;

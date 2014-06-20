@@ -1,6 +1,6 @@
-package main.java.net.titanscraft.launchercore.util.verifiers;
+package net.titanscraft.launchercore.util.verifiers;
 
-import main.java.net.titanscraft.launchercore.util.MD5Utils;
+import net.titanscraft.launchercore.util.MD5Utils;
 
 import java.io.File;
 

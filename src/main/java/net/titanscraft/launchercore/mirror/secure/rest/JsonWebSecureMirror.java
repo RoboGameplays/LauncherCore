@@ -1,7 +1,7 @@
-package main.java.net.titanscraft.launchercore.mirror.secure.rest;
+package net.titanscraft.launchercore.mirror.secure.rest;
 
-import main.java.net.titanscraft.launchercore.exception.RestfulAPIException;
-import main.java.net.titanscraft.launchercore.restful.RestObject;
+import net.titanscraft.launchercore.exception.RestfulAPIException;
+import net.titanscraft.launchercore.restful.RestObject;
 
 public class JsonWebSecureMirror implements ISecureMirror {
     private String baseUrl;

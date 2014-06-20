@@ -1,5 +1,5 @@
 
-package main.java.net.titanscraft.launchercore.util;
+package net.titanscraft.launchercore.util;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

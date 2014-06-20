@@ -1,32 +1,14 @@
-/*
- * This file is part of Technic Launcher Core.
- * Copyright (C) 2013 Syndicate, LLC
- *
- * Technic Launcher Core is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * Technic Launcher Core is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License,
- * as well as a copy of the GNU Lesser General Public License,
- * along with Technic Launcher Core.  If not, see <http://www.gnu.org/licenses/>.
- */
 
-package main.java.net.titanscraft.launchercore.launch;
+package net.titanscraft.launchercore.launch;
 
-import main.java.net.titanscraft.launchercore.install.InstalledPack;
-import main.java.net.titanscraft.launchercore.install.user.User;
-import main.java.net.titanscraft.launchercore.minecraft.CompleteVersion;
-import main.java.net.titanscraft.launchercore.minecraft.Library;
-import main.java.net.titanscraft.launchercore.mirror.MirrorStore;
-import main.java.net.titanscraft.launchercore.restful.PlatformConstants;
-import main.java.net.titanscraft.launchercore.util.OperatingSystem;
-import main.java.net.titanscraft.launchercore.util.Utils;
+import net.titanscraft.launchercore.install.InstalledPack;
+import net.titanscraft.launchercore.install.user.User;
+import net.titanscraft.launchercore.minecraft.CompleteVersion;
+import net.titanscraft.launchercore.minecraft.Library;
+import net.titanscraft.launchercore.mirror.MirrorStore;
+import net.titanscraft.launchercore.restful.PlatformConstants;
+import net.titanscraft.launchercore.util.OperatingSystem;
+import net.titanscraft.launchercore.util.Utils;
 import org.apache.commons.lang3.text.StrSubstitutor;
 
 import java.io.File;

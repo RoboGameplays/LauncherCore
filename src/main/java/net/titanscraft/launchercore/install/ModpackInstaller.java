@@ -1,18 +1,18 @@
-package main.java.net.titanscraft.launchercore.install;
+package net.titanscraft.launchercore.install;
 
-import main.java.net.titanscraft.launchercore.exception.CacheDeleteException;
-import main.java.net.titanscraft.launchercore.exception.PackNotAvailableOfflineException;
-import main.java.net.titanscraft.launchercore.install.tasks.*;
-import main.java.net.titanscraft.launchercore.install.user.User;
-import main.java.net.titanscraft.launchercore.minecraft.CompleteVersion;
-import main.java.net.titanscraft.launchercore.mirror.MirrorStore;
-import main.java.net.titanscraft.launchercore.restful.Modpack;
-import main.java.net.titanscraft.launchercore.restful.PackInfo;
-import main.java.net.titanscraft.launchercore.restful.PlatformConstants;
-import main.java.net.titanscraft.launchercore.util.DownloadListener;
-import main.java.net.titanscraft.launchercore.util.Utils;
-import main.java.net.titanscraft.launchercore.util.ZipUtils;
-import main.java.net.titanscraft.launchercore.util.verifiers.ValidZipFileVerifier;
+import net.titanscraft.launchercore.exception.CacheDeleteException;
+import net.titanscraft.launchercore.exception.PackNotAvailableOfflineException;
+import net.titanscraft.launchercore.install.tasks.*;
+import net.titanscraft.launchercore.install.user.User;
+import net.titanscraft.launchercore.minecraft.CompleteVersion;
+import net.titanscraft.launchercore.mirror.MirrorStore;
+import net.titanscraft.launchercore.restful.Modpack;
+import net.titanscraft.launchercore.restful.PackInfo;
+import net.titanscraft.launchercore.restful.PlatformConstants;
+import net.titanscraft.launchercore.util.DownloadListener;
+import net.titanscraft.launchercore.util.Utils;
+import net.titanscraft.launchercore.util.ZipUtils;
+import net.titanscraft.launchercore.util.verifiers.ValidZipFileVerifier;
 import org.apache.commons.io.FileUtils;
 
 import javax.swing.*;

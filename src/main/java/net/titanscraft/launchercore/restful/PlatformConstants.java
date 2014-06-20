@@ -1,5 +1,5 @@
 
-package main.java.net.titanscraft.launchercore.restful;
+package net.titanscraft.launchercore.restful;
 
 public class PlatformConstants {
     public static final String PLATFORM = "http://www.technicpack.net/";

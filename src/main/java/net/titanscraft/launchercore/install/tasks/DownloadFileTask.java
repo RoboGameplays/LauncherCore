@@ -1,7 +1,7 @@
-package main.java.net.titanscraft.launchercore.install.tasks;
+package net.titanscraft.launchercore.install.tasks;
 
-import main.java.net.titanscraft.launchercore.exception.DownloadException;
-import main.java.net.titanscraft.launchercore.util.verifiers.IFileVerifier;
+import net.titanscraft.launchercore.exception.DownloadException;
+import net.titanscraft.launchercore.util.verifiers.IFileVerifier;
 
 import java.io.File;
 import java.io.IOException;

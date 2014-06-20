@@ -1,8 +1,8 @@
-package main.java.net.titanscraft.launchercore.install.tasks;
+package net.titanscraft.launchercore.install.tasks;
 
-import main.java.net.titanscraft.launchercore.install.InstalledPack;
-import main.java.net.titanscraft.launchercore.restful.Modpack;
-import main.java.net.titanscraft.launchercore.restful.solder.Mod;
+import net.titanscraft.launchercore.install.InstalledPack;
+import net.titanscraft.launchercore.restful.Modpack;
+import net.titanscraft.launchercore.restful.solder.Mod;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;

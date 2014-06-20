@@ -1,7 +1,7 @@
 
-package main.java.net.titanscraft.launchercore.minecraft.versionlist;
+package net.titanscraft.launchercore.minecraft.versionlist;
 
-import main.java.net.titanscraft.launchercore.minecraft.ReleaseType;
+import net.titanscraft.launchercore.minecraft.ReleaseType;
 
 import java.util.Date;
 

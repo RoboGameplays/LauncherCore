@@ -1,6 +1,6 @@
-package main.java.net.titanscraft.launchercore.install.user.skins;
+package net.titanscraft.launchercore.install.user.skins;
 
-import main.java.net.titanscraft.launchercore.install.user.User;
+import net.titanscraft.launchercore.install.user.User;
 
 public interface ISkinStore {
     void downloadUserSkin(User user, String location);

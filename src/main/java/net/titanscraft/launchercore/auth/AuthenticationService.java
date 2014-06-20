@@ -1,9 +1,9 @@
 
-package main.java.net.titanscraft.launchercore.auth;
+package net.titanscraft.launchercore.auth;
 
-import main.java.net.titanscraft.launchercore.exception.AuthenticationNetworkFailureException;
-import main.java.net.titanscraft.launchercore.install.user.User;
-import main.java.net.titanscraft.launchercore.util.Utils;
+import net.titanscraft.launchercore.exception.AuthenticationNetworkFailureException;
+import net.titanscraft.launchercore.install.user.User;
+import net.titanscraft.launchercore.util.Utils;
 import org.apache.commons.io.IOUtils;
 
 import java.io.DataOutputStream;

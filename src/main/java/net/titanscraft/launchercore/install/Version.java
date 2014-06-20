@@ -1,8 +1,8 @@
 
-package main.java.net.titanscraft.launchercore.install;
+package net.titanscraft.launchercore.install;
 
 import com.google.gson.JsonSyntaxException;
-import main.java.net.titanscraft.launchercore.util.Utils;
+import net.titanscraft.launchercore.util.Utils;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;

@@ -1,10 +1,10 @@
 
-package main.java.net.titanscraft.launchercore.mirror.download;
+package net.titanscraft.launchercore.mirror.download;
 
-import main.java.net.titanscraft.launchercore.exception.DownloadException;
-import main.java.net.titanscraft.launchercore.exception.PermissionDeniedException;
-import main.java.net.titanscraft.launchercore.util.DownloadListener;
-import main.java.net.titanscraft.launchercore.util.Utils;
+import net.titanscraft.launchercore.exception.DownloadException;
+import net.titanscraft.launchercore.exception.PermissionDeniedException;
+import net.titanscraft.launchercore.util.DownloadListener;
+import net.titanscraft.launchercore.util.Utils;
 import org.apache.commons.io.IOUtils;
 
 import java.io.*;

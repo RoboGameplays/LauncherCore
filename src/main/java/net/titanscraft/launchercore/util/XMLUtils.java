@@ -1,4 +1,4 @@
-package main.java.net.titanscraft.launchercore.util;
+package net.titanscraft.launchercore.util;
 
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;

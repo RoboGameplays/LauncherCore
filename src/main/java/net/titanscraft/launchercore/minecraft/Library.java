@@ -1,9 +1,9 @@
 
-package main.java.net.titanscraft.launchercore.minecraft;
+package net.titanscraft.launchercore.minecraft;
 
-import main.java.net.titanscraft.launchercore.mirror.MirrorStore;
-import main.java.net.titanscraft.launchercore.util.OperatingSystem;
-import main.java.net.titanscraft.launchercore.util.Utils;
+import net.titanscraft.launchercore.mirror.MirrorStore;
+import net.titanscraft.launchercore.util.OperatingSystem;
+import net.titanscraft.launchercore.util.Utils;
 import org.apache.commons.lang3.text.StrSubstitutor;
 
 import java.util.List;

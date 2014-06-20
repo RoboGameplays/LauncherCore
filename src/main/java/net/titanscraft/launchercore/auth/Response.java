@@ -1,5 +1,5 @@
 
-package main.java.net.titanscraft.launchercore.auth;
+package net.titanscraft.launchercore.auth;
 
 public class Response {
     private String error;

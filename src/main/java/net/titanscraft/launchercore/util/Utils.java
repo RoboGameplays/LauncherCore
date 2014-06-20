@@ -1,9 +1,9 @@
 
-package main.java.net.titanscraft.launchercore.util;
+package net.titanscraft.launchercore.util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import main.java.net.titanscraft.launchercore.mirror.MirrorStore;
+import net.titanscraft.launchercore.mirror.MirrorStore;
 import org.apache.commons.io.IOUtils;
 
 import java.io.*;
@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 public class Utils {
     private static final Gson gson;
     private static final Gson mojangGson;
-    private static final Logger logger = Logger.getLogger("main.java.net.titanscraft.launcher.Main");
+    private static final Logger logger = Logger.getLogger("net.titanscraft.launcher.Main");
 
     static {
         GsonBuilder builder = new GsonBuilder();

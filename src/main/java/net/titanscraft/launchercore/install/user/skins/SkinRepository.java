@@ -1,6 +1,6 @@
-package main.java.net.titanscraft.launchercore.install.user.skins;
+package net.titanscraft.launchercore.install.user.skins;
 
-import main.java.net.titanscraft.launchercore.install.user.User;
+import net.titanscraft.launchercore.install.user.User;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

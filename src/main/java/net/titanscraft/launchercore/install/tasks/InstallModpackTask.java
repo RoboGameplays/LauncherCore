@@ -1,12 +1,12 @@
-package main.java.net.titanscraft.launchercore.install.tasks;
+package net.titanscraft.launchercore.install.tasks;
 
-import main.java.net.titanscraft.launchercore.exception.CacheDeleteException;
-import main.java.net.titanscraft.launchercore.install.InstalledPack;
-import main.java.net.titanscraft.launchercore.restful.Modpack;
-import main.java.net.titanscraft.launchercore.restful.solder.Mod;
-import main.java.net.titanscraft.launchercore.util.verifiers.IFileVerifier;
-import main.java.net.titanscraft.launchercore.util.verifiers.MD5FileVerifier;
-import main.java.net.titanscraft.launchercore.util.verifiers.ValidZipFileVerifier;
+import net.titanscraft.launchercore.exception.CacheDeleteException;
+import net.titanscraft.launchercore.install.InstalledPack;
+import net.titanscraft.launchercore.restful.Modpack;
+import net.titanscraft.launchercore.restful.solder.Mod;
+import net.titanscraft.launchercore.util.verifiers.IFileVerifier;
+import net.titanscraft.launchercore.util.verifiers.MD5FileVerifier;
+import net.titanscraft.launchercore.util.verifiers.ValidZipFileVerifier;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,8 +1,8 @@
 
-package main.java.net.titanscraft.launchercore.restful;
+package net.titanscraft.launchercore.restful;
 
-import main.java.net.titanscraft.launchercore.restful.platform.PlatformPackInfo;
-import main.java.net.titanscraft.launchercore.restful.solder.Mod;
+import net.titanscraft.launchercore.restful.platform.PlatformPackInfo;
+import net.titanscraft.launchercore.restful.solder.Mod;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.java.net.titanscraft.launchercore.util.verifiers;
+package net.titanscraft.launchercore.util.verifiers;
 
 import java.io.File;
 import java.io.IOException;

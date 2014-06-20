@@ -1,5 +1,5 @@
 
-package main.java.net.titanscraft.launchercore.exception;
+package net.titanscraft.launchercore.exception;
 
 public class PermissionDeniedException extends DownloadException {
     private static final long serialVersionUID = 2L;

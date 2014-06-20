@@ -1,7 +1,7 @@
-package main.java.net.titanscraft.launchercore.util.verifiers;
+package net.titanscraft.launchercore.util.verifiers;
 
 import com.google.gson.JsonObject;
-import main.java.net.titanscraft.launchercore.util.Utils;
+import net.titanscraft.launchercore.util.Utils;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;

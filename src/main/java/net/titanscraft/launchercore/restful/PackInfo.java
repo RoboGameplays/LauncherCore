@@ -1,9 +1,9 @@
 
-package main.java.net.titanscraft.launchercore.restful;
+package net.titanscraft.launchercore.restful;
 
 
-import main.java.net.titanscraft.launchercore.exception.BuildInaccessibleException;
-import main.java.net.titanscraft.launchercore.install.user.User;
+import net.titanscraft.launchercore.exception.BuildInaccessibleException;
+import net.titanscraft.launchercore.install.user.User;
 
 import java.util.List;
 

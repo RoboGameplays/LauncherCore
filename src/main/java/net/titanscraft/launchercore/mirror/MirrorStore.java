@@ -1,12 +1,12 @@
-package main.java.net.titanscraft.launchercore.mirror;
+package net.titanscraft.launchercore.mirror;
 
-import main.java.net.titanscraft.launchercore.exception.DownloadException;
-import main.java.net.titanscraft.launchercore.install.user.UserModel;
-import main.java.net.titanscraft.launchercore.mirror.download.Download;
-import main.java.net.titanscraft.launchercore.mirror.secure.SecureToken;
-import main.java.net.titanscraft.launchercore.mirror.secure.rest.ISecureMirror;
-import main.java.net.titanscraft.launchercore.util.DownloadListener;
-import main.java.net.titanscraft.launchercore.util.verifiers.IFileVerifier;
+import net.titanscraft.launchercore.exception.DownloadException;
+import net.titanscraft.launchercore.install.user.UserModel;
+import net.titanscraft.launchercore.mirror.download.Download;
+import net.titanscraft.launchercore.mirror.secure.SecureToken;
+import net.titanscraft.launchercore.mirror.secure.rest.ISecureMirror;
+import net.titanscraft.launchercore.util.DownloadListener;
+import net.titanscraft.launchercore.util.verifiers.IFileVerifier;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;

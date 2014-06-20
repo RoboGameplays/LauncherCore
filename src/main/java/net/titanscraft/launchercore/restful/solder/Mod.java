@@ -1,7 +1,7 @@
 
-package main.java.net.titanscraft.launchercore.restful.solder;
+package net.titanscraft.launchercore.restful.solder;
 
-import main.java.net.titanscraft.launchercore.restful.Resource;
+import net.titanscraft.launchercore.restful.Resource;
 
 public class Mod extends Resource {
     private String name;

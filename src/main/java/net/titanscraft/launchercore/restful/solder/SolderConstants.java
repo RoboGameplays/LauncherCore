@@ -1,7 +1,7 @@
 
-package main.java.net.titanscraft.launchercore.restful.solder;
+package net.titanscraft.launchercore.restful.solder;
 
-import main.java.net.titanscraft.launchercore.util.Settings;
+import net.titanscraft.launchercore.util.Settings;
 
 public class SolderConstants {
     public static final String TECHNIC = "http://solder.technicpack.net/api/";

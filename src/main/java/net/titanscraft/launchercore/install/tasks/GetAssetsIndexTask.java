@@ -1,14 +1,14 @@
-package main.java.net.titanscraft.launchercore.install.tasks;
+package net.titanscraft.launchercore.install.tasks;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import main.java.net.titanscraft.launchercore.exception.DownloadException;
-import main.java.net.titanscraft.launchercore.install.InstalledPack;
-import main.java.net.titanscraft.launchercore.minecraft.MojangConstants;
-import main.java.net.titanscraft.launchercore.util.Utils;
-import main.java.net.titanscraft.launchercore.util.verifiers.FileSizeVerifier;
-import main.java.net.titanscraft.launchercore.util.verifiers.IFileVerifier;
-import main.java.net.titanscraft.launchercore.util.verifiers.ValidJsonFileVerifier;
+import net.titanscraft.launchercore.exception.DownloadException;
+import net.titanscraft.launchercore.install.InstalledPack;
+import net.titanscraft.launchercore.minecraft.MojangConstants;
+import net.titanscraft.launchercore.util.Utils;
+import net.titanscraft.launchercore.util.verifiers.FileSizeVerifier;
+import net.titanscraft.launchercore.util.verifiers.IFileVerifier;
+import net.titanscraft.launchercore.util.verifiers.ValidJsonFileVerifier;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;

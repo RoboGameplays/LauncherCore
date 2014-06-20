@@ -1,5 +1,5 @@
 
-package main.java.net.titanscraft.launchercore.auth;
+package net.titanscraft.launchercore.auth;
 
 import java.util.Arrays;
 

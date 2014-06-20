@@ -1,5 +1,5 @@
 
-package main.java.net.titanscraft.launchercore.util;
+package net.titanscraft.launchercore.util;
 
 public enum LaunchAction {
     HIDE("Hide Launcher"),

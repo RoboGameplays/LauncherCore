@@ -1,12 +1,12 @@
-package main.java.net.titanscraft.launchercore.install.user;
+package net.titanscraft.launchercore.install.user;
 
-import main.java.net.titanscraft.launchercore.auth.AuthResponse;
-import main.java.net.titanscraft.launchercore.auth.AuthenticationService;
-import main.java.net.titanscraft.launchercore.exception.AuthenticationNetworkFailureException;
-import main.java.net.titanscraft.launchercore.exception.DownloadException;
-import main.java.net.titanscraft.launchercore.mirror.secure.rest.ISecureMirror;
-import main.java.net.titanscraft.launchercore.mirror.secure.rest.ValidateRequest;
-import main.java.net.titanscraft.launchercore.mirror.secure.rest.ValidateResponse;
+import net.titanscraft.launchercore.auth.AuthResponse;
+import net.titanscraft.launchercore.auth.AuthenticationService;
+import net.titanscraft.launchercore.exception.AuthenticationNetworkFailureException;
+import net.titanscraft.launchercore.exception.DownloadException;
+import net.titanscraft.launchercore.mirror.secure.rest.ISecureMirror;
+import net.titanscraft.launchercore.mirror.secure.rest.ValidateRequest;
+import net.titanscraft.launchercore.mirror.secure.rest.ValidateResponse;
 
 import java.util.Collection;
 import java.util.LinkedList;

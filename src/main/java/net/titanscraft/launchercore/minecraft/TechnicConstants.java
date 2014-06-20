@@ -1,4 +1,4 @@
-package main.java.net.titanscraft.launchercore.minecraft;
+package net.titanscraft.launchercore.minecraft;
 
 public class TechnicConstants {
     public static final String technicURL = "http://mirror.technicpack.net/Technic/";

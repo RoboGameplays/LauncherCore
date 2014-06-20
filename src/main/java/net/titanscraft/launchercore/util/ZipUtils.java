@@ -1,8 +1,8 @@
 
-package main.java.net.titanscraft.launchercore.util;
+package net.titanscraft.launchercore.util;
 
 
-import main.java.net.titanscraft.launchercore.minecraft.ExtractRules;
+import net.titanscraft.launchercore.minecraft.ExtractRules;
 import org.apache.commons.io.IOUtils;
 
 import java.io.*;

@@ -1,4 +1,4 @@
-package main.java.net.titanscraft.launchercore.install;
+package net.titanscraft.launchercore.install;
 
 import java.util.List;
 import java.util.Map;

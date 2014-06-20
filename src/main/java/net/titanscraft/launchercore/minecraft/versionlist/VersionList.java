@@ -1,5 +1,5 @@
 
-package main.java.net.titanscraft.launchercore.minecraft.versionlist;
+package net.titanscraft.launchercore.minecraft.versionlist;
 
 import java.util.List;
 

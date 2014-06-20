@@ -1,7 +1,7 @@
 
-package main.java.net.titanscraft.launchercore.restful.solder;
+package net.titanscraft.launchercore.restful.solder;
 
-import main.java.net.titanscraft.launchercore.restful.RestObject;
+import net.titanscraft.launchercore.restful.RestObject;
 
 import java.util.Map;
 

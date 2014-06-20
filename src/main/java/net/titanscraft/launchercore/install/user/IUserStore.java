@@ -1,4 +1,4 @@
-package main.java.net.titanscraft.launchercore.install.user;
+package net.titanscraft.launchercore.install.user;
 
 import java.util.Collection;
 

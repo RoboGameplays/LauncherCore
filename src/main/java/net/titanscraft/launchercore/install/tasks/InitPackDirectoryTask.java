@@ -1,6 +1,6 @@
-package main.java.net.titanscraft.launchercore.install.tasks;
+package net.titanscraft.launchercore.install.tasks;
 
-import main.java.net.titanscraft.launchercore.install.InstalledPack;
+import net.titanscraft.launchercore.install.InstalledPack;
 
 import java.io.IOException;
 

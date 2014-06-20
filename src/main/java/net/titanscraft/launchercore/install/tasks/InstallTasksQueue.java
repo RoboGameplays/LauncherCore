@@ -1,8 +1,8 @@
-package main.java.net.titanscraft.launchercore.install.tasks;
+package net.titanscraft.launchercore.install.tasks;
 
-import main.java.net.titanscraft.launchercore.minecraft.CompleteVersion;
-import main.java.net.titanscraft.launchercore.mirror.MirrorStore;
-import main.java.net.titanscraft.launchercore.util.DownloadListener;
+import net.titanscraft.launchercore.minecraft.CompleteVersion;
+import net.titanscraft.launchercore.mirror.MirrorStore;
+import net.titanscraft.launchercore.util.DownloadListener;
 
 import java.io.IOException;
 import java.util.LinkedList;

@@ -1,11 +1,11 @@
-package main.java.net.titanscraft.launchercore.install.tasks;
+package net.titanscraft.launchercore.install.tasks;
 
-import main.java.net.titanscraft.launchercore.exception.PackNotAvailableOfflineException;
-import main.java.net.titanscraft.launchercore.install.InstalledPack;
-import main.java.net.titanscraft.launchercore.minecraft.TechnicConstants;
-import main.java.net.titanscraft.launchercore.util.ZipUtils;
-import main.java.net.titanscraft.launchercore.util.verifiers.IFileVerifier;
-import main.java.net.titanscraft.launchercore.util.verifiers.ValidJsonFileVerifier;
+import net.titanscraft.launchercore.exception.PackNotAvailableOfflineException;
+import net.titanscraft.launchercore.install.InstalledPack;
+import net.titanscraft.launchercore.minecraft.TechnicConstants;
+import net.titanscraft.launchercore.util.ZipUtils;
+import net.titanscraft.launchercore.util.verifiers.IFileVerifier;
+import net.titanscraft.launchercore.util.verifiers.ValidJsonFileVerifier;
 
 import java.io.File;
 import java.io.IOException;

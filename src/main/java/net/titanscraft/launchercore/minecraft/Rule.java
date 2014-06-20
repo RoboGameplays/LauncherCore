@@ -1,7 +1,7 @@
 
-package main.java.net.titanscraft.launchercore.minecraft;
+package net.titanscraft.launchercore.minecraft;
 
-import main.java.net.titanscraft.launchercore.util.OperatingSystem;
+import net.titanscraft.launchercore.util.OperatingSystem;
 
 public class Rule {
     private Action action = Action.ALLOW;

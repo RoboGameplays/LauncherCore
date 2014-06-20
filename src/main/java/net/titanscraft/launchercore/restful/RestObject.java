@@ -1,9 +1,9 @@
 
-package main.java.net.titanscraft.launchercore.restful;
+package net.titanscraft.launchercore.restful;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonParseException;
-import main.java.net.titanscraft.launchercore.exception.RestfulAPIException;
+import net.titanscraft.launchercore.exception.RestfulAPIException;
 import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;

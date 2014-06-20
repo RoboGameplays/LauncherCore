@@ -1,5 +1,5 @@
 
-package main.java.net.titanscraft.launchercore.minecraft;
+package net.titanscraft.launchercore.minecraft;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package main.java.net.titanscraft.launchercore.exception;
+package net.titanscraft.launchercore.exception;
 
 import java.io.IOException;
 

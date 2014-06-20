@@ -1,8 +1,8 @@
-package main.java.net.titanscraft.launchercore.mirror.secure;
+package net.titanscraft.launchercore.mirror.secure;
 
-import main.java.net.titanscraft.launchercore.exception.DownloadException;
-import main.java.net.titanscraft.launchercore.install.user.UserModel;
-import main.java.net.titanscraft.launchercore.mirror.secure.rest.ISecureMirror;
+import net.titanscraft.launchercore.exception.DownloadException;
+import net.titanscraft.launchercore.install.user.UserModel;
+import net.titanscraft.launchercore.mirror.secure.rest.ISecureMirror;
 
 import java.util.Date;
 

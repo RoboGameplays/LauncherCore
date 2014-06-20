@@ -1,4 +1,4 @@
-package main.java.net.titanscraft.launchercore.install.tasks;
+package net.titanscraft.launchercore.install.tasks;
 
 import org.apache.commons.io.FileUtils;
 

@@ -1,17 +1,17 @@
-package main.java.net.titanscraft.launchercore.install;
+package net.titanscraft.launchercore.install;
 
-import main.java.net.titanscraft.launchercore.exception.RestfulAPIException;
-import main.java.net.titanscraft.launchercore.install.user.IAuthListener;
-import main.java.net.titanscraft.launchercore.install.user.User;
-import main.java.net.titanscraft.launchercore.mirror.MirrorStore;
-import main.java.net.titanscraft.launchercore.restful.PackInfo;
-import main.java.net.titanscraft.launchercore.restful.RestObject;
-import main.java.net.titanscraft.launchercore.restful.platform.PlatformPackInfo;
-import main.java.net.titanscraft.launchercore.restful.solder.FullModpacks;
-import main.java.net.titanscraft.launchercore.restful.solder.Solder;
-import main.java.net.titanscraft.launchercore.restful.solder.SolderConstants;
-import main.java.net.titanscraft.launchercore.restful.solder.SolderPackInfo;
-import main.java.net.titanscraft.launchercore.util.Utils;
+import net.titanscraft.launchercore.exception.RestfulAPIException;
+import net.titanscraft.launchercore.install.user.IAuthListener;
+import net.titanscraft.launchercore.install.user.User;
+import net.titanscraft.launchercore.mirror.MirrorStore;
+import net.titanscraft.launchercore.restful.PackInfo;
+import net.titanscraft.launchercore.restful.RestObject;
+import net.titanscraft.launchercore.restful.platform.PlatformPackInfo;
+import net.titanscraft.launchercore.restful.solder.FullModpacks;
+import net.titanscraft.launchercore.restful.solder.Solder;
+import net.titanscraft.launchercore.restful.solder.SolderConstants;
+import net.titanscraft.launchercore.restful.solder.SolderPackInfo;
+import net.titanscraft.launchercore.util.Utils;
 
 import java.awt.*;
 import java.util.ArrayList;

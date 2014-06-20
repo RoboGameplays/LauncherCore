@@ -1,5 +1,5 @@
 
-package main.java.net.titanscraft.launchercore.launch;
+package net.titanscraft.launchercore.launch;
 
 public interface MinecraftExitListener {
 

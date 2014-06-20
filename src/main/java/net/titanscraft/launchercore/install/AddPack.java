@@ -1,7 +1,7 @@
 
-package main.java.net.titanscraft.launchercore.install;
+package net.titanscraft.launchercore.install;
 
-import main.java.net.titanscraft.launchercore.util.ResourceUtils;
+import net.titanscraft.launchercore.util.ResourceUtils;
 
 import java.awt.image.BufferedImage;
 
