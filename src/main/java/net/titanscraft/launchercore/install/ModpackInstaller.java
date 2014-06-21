@@ -44,8 +44,7 @@ public class ModpackInstaller {
         String minecraft = modpack.getMinecraft();
 
         if (minecraft.startsWith("1.5")) {
-            queue.AddTask(new EnsureFileTask(new File(Utils.getCacheDirectory(), "fml_libs15.zip"), new ValidZipFileVerifier(), new File(installedPack.getInstalledDirectory(), "lib"), "http://titanscraft
-            .net/Technic/lib/fml/fml_libs15.zip"));
+            queue.AddTask(new EnsureFileTask(new File(Utils.getCacheDirectory(), "fml_libs15.zip"), new ValidZipFileVerifier(), new File(installedPack.getInstalledDirectory(), "lib"), "http://titanscraft.net/Technic/lib/fml/fml_libs15.zip"));
         } else if (minecraft.startsWith("1.4")) {
             queue.AddTask(new EnsureFileTask(new File(Utils.getCacheDirectory(), "fml_libs.zip"), new ValidZipFileVerifier(), new File(installedPack.getInstalledDirectory(), "lib"), "http://titanscraft.net/Technic/lib/fml/fml_libs.zip"));
         }
@@ -55,7 +54,7 @@ public class ModpackInstaller {
 
         boolean shouldUpdate = installedVersion == null;
         if (!shouldUpdate && !this.build.equals(installedVersion.getVersion())) {
-            int result = JOptionPane.showConfirmDialog(component, "Would you like to update this pack?", "Update Found", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
+            int result = JOptionPane.showConfirmDialog(component, "Voce gostaria de atualizar o modpack?", "Atualização disponivel", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
 
             if (result == JOptionPane.YES_OPTION) {
                 shouldUpdate = true;

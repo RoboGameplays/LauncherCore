@@ -64,7 +64,7 @@ public class Version {
         try {
             FileUtils.writeStringToFile(version, json, Charset.forName("UTF-8"));
         } catch (IOException e) {
-            Utils.getLogger().log(Level.WARNING, "Não foi possível salvar a versão" + version "que esta instalado " );
+            Utils.getLogger().log(Level.WARNING, "Unable to save installed " + version);
         }
     }
 
