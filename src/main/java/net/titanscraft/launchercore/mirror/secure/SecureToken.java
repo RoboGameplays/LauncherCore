@@ -29,7 +29,7 @@ public class SecureToken {
 
     public String queryForSecureToken() throws DownloadException {
         return null;
-        if (this.token != null && this.receivedTime != null && this.userModel.getCurrentUser() != null && this.tokenUserName != null &&
+/*        if (this.token != null && this.receivedTime != null && this.userModel.getCurrentUser() != null && this.tokenUserName != null &&
                 this.tokenAccessToken != null && this.userModel.getCurrentUser().getUsername().equals(this.tokenUserName) &&
                 this.userModel.getCurrentUser().getAccessToken().equals(this.tokenAccessToken)) {
             Date now = new Date();
@@ -48,6 +48,6 @@ public class SecureToken {
             this.tokenAccessToken = userModel.getCurrentUser().getAccessToken();
         }
 
-        return this.token;
+        return this.token;*/
     }
 }
