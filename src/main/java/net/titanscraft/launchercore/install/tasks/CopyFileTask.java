@@ -16,7 +16,7 @@ public class CopyFileTask implements IInstallTask {
 
     @Override
     public String getTaskDescription() {
-        return "Copying files.";
+        return "Copiando arquivos.";
     }
 
     @Override

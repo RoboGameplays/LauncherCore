@@ -35,7 +35,7 @@ public class AuthResponse extends Response {
         String error = super.getError();
 
         if (this.availableProfiles != null && this.availableProfiles.length == 0 && (error == null || error.isEmpty())) {
-            return "No Minecraft License";
+            return "Sem licença de Minecraft";
         } else {
             return error;
         }
@@ -46,7 +46,7 @@ public class AuthResponse extends Response {
         String message = super.getErrorMessage();
 
         if (this.availableProfiles != null && this.availableProfiles.length == 0 && (message == null || message.isEmpty())) {
-            return "This Mojang account has no purchased copies of Minecraft attached.";
+            return "Esta conta Mojang não tem de copia Minecraft anexada.";
         } else {
             return message;
         }

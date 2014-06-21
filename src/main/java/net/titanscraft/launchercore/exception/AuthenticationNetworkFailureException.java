@@ -17,7 +17,7 @@ public class AuthenticationNetworkFailureException extends IOException {
 
     @Override
     public String getMessage() {
-        return "An error was raised while attempting to communicate with auth.minecraft.net.";
+        return "Um erro foi gerado durante a tentativa de se comunicar com auth.minecraft.net.";
     }
 
     @Override

@@ -284,7 +284,7 @@ public class InstalledPack {
                 return true;
             }
         } catch (IIOException e) {
-            Utils.getLogger().log(Level.INFO, "Failed to load image " + file.getAbsolutePath() + " from file.");
+            Utils.getLogger().log(Level.INFO, "Falha ao carregar a imagem do arquivo" + file.getAbsolutePath() + ".");
         } catch (IOException e) {
             e.printStackTrace();
         }

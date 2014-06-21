@@ -174,7 +174,7 @@ public class MinecraftLauncher {
         // Add the minecraft jar to the classpath
         File minecraft = new File(pack.getBinDir(), "minecraft.jar");
         if (!minecraft.exists()) {
-            throw new RuntimeException("Minecraft not installed for this pack: " + pack);
+            throw new RuntimeException("Minecraft não esta instalado neste modpack: " + pack);
         }
         if (result.length() > 1) {
             result.append(separator);

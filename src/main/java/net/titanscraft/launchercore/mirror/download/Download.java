@@ -112,7 +112,7 @@ public class Download implements Runnable {
             }
 
             if (stream.permDenied.get()) {
-                throw new PermissionDeniedException("Permission denied!");
+                throw new PermissionDeniedException("Permissão negada!");
             }
 
             if (is.get() != null) {
@@ -163,7 +163,7 @@ public class Download implements Runnable {
             try {
                 is.set(urlconnection.getInputStream());
             } catch (SocketException e) {
-                if (e.getMessage().equalsIgnoreCase("Permission denied: connect")) {
+                if (e.getMessage().equalsIgnoreCase("Permissão negada: connect")) {
                     permDenied.set(true);
                 }
             } catch (IOException ignore) {
@@ -191,7 +191,7 @@ public class Download implements Runnable {
                 if (diff == 0) {
                     if ((System.currentTimeMillis() - last) > TIMEOUT) {
                         if (listener != null) {
-                            listener.stateChanged("Download Failed", getProgress());
+                            listener.stateChanged("Falha no Download", getProgress());
                         }
                         try {
                             rbc.close();

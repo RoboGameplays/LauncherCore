@@ -22,7 +22,7 @@ public class InstallMinecraftIfNecessaryTask extends ListenerTask {
 
     @Override
     public String getTaskDescription() {
-        return "Installing Minecraft";
+        return "Instalando Minecraft";
     }
 
     @Override

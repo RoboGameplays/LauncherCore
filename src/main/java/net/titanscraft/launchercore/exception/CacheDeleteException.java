@@ -28,6 +28,6 @@ public class CacheDeleteException extends IOException {
 
     @Override
     public String getMessage() {
-        return "An error occurred while attempting to delete '" + filePath + "' from the cache:";
+        return "Ocorreu um erro ao tentar apagar '" + filePath + "' do cache:";
     }
 }

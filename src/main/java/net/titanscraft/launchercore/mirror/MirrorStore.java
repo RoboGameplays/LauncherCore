@@ -36,7 +36,7 @@ public class MirrorStore {
         try {
             urlObject = new URL(url);
         } catch (MalformedURLException ex) {
-            throw new DownloadException("Invalid URL: " + url, ex);
+            throw new DownloadException("URL Invalida: " + url, ex);
         }
 
         String host = urlObject.getHost().toLowerCase();
@@ -90,7 +90,7 @@ public class MirrorStore {
         File outputFile = null;
         Download download = null;
         while (tries > 0) {
-            System.out.println("Starting download of " + url + ", with " + tries + " tries remaining");
+            System.out.println("Iniciando download do " + url + ", com " + tries + " tentativas restantes");
             tries--;
             download = new Download(getFullUrl(url), name, output);
             download.setListener(listener);

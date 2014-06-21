@@ -41,7 +41,7 @@ public class Version {
 
     public static Version load(File version) {
         if (!version.exists()) {
-            Utils.getLogger().log(Level.WARNING, "Unable to load version from " + version + " because it does not exist.");
+            Utils.getLogger().log(Level.WARNING, "Não foi possível carregar a versão de " + version + " porque não existe.");
             return null;
         }
 
@@ -49,10 +49,10 @@ public class Version {
             String json = FileUtils.readFileToString(version, Charset.forName("UTF-8"));
             return Utils.getGson().fromJson(json, Version.class);
         } catch (JsonSyntaxException e) {
-            Utils.getLogger().log(Level.WARNING, "Unable to load version from " + version);
+            Utils.getLogger().log(Level.WARNING, "Não foi possível carregar a versão de " + version);
             return null;
         } catch (IOException e) {
-            Utils.getLogger().log(Level.WARNING, "Unable to load version from " + version);
+            Utils.getLogger().log(Level.WARNING, "Não foi possível carregar a versão de " + version);
             return null;
         }
     }
@@ -64,7 +64,7 @@ public class Version {
         try {
             FileUtils.writeStringToFile(version, json, Charset.forName("UTF-8"));
         } catch (IOException e) {
-            Utils.getLogger().log(Level.WARNING, "Unable to save installed " + version);
+            Utils.getLogger().log(Level.WARNING, "Não foi possível salvar a versão" + version "que esta instalado " );
         }
     }
 

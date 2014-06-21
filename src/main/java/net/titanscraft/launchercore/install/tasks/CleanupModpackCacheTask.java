@@ -21,7 +21,7 @@ public class CleanupModpackCacheTask implements IInstallTask {
 
     @Override
     public String getTaskDescription() {
-        return "Cleaning Modpack Cache";
+        return "Limpando cache do Modpack";
     }
 
     @Override

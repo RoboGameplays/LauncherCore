@@ -19,7 +19,7 @@ public class PackNotAvailableOfflineException extends IOException {
 
     @Override
     public String getMessage() {
-        return "The modpack " + packDisplayName + " does not appear to be installed or is corrupt, and is not available for Offline Play.";
+        return "O modpack " + packDisplayName + " não parece estar instalado ou está corrompido, e não está disponível para Jogar no modo Offline";
     }
 
     @Override

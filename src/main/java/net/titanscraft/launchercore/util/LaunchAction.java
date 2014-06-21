@@ -2,9 +2,9 @@
 package net.titanscraft.launchercore.util;
 
 public enum LaunchAction {
-    HIDE("Hide Launcher"),
-    CLOSE("Close Launcher"),
-    NOTHING("Stay Open");
+    HIDE("Esconder Launcher"),
+    CLOSE("Fechar Launcher"),
+    NOTHING("Deixar Aberto");
     private final String display;
 
     private LaunchAction(String s) {

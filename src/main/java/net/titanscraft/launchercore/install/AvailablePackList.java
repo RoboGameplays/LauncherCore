@@ -163,7 +163,7 @@ public class AvailablePackList implements IAuthListener, PackRefreshListener {
             }
         }
 
-        Thread thread = new Thread("Technic Solder Defaults") {
+        Thread thread = new Thread("TitansCraft Solder Defaults") {
             @Override
             public void run() {
                 int index = 0;
@@ -211,7 +211,7 @@ public class AvailablePackList implements IAuthListener, PackRefreshListener {
                         index++;
                     }
                 } catch (RestfulAPIException e) {
-                    Utils.getLogger().log(Level.WARNING, "Unable to load technic modpacks", e);
+                    Utils.getLogger().log(Level.WARNING, "Não foi possível carregar modpacks do TitansCraft", e);
 
                     for (String packName : mPackStore.getPackNames()) {
                         InstalledPack pack = mPackStore.getInstalledPacks().get(packName);

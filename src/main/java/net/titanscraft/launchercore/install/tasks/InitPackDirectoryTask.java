@@ -13,7 +13,7 @@ public class InitPackDirectoryTask implements IInstallTask {
 
     @Override
     public String getTaskDescription() {
-        return "Initializing Directories";
+        return "Criando Pastas";
     }
 
     @Override
