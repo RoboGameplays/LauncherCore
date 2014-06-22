@@ -4,7 +4,7 @@ package net.titanscraft.launchercore.restful.solder;
 import net.titanscraft.launchercore.util.Settings;
 
 public class SolderConstants {
-    public static final String TECHNIC = "http://solder.titanscraft.net/api/";
+    public static final String TECHNIC = "http://www.titanscraft.net/public/api/";
 
     public static String getSolderPackInfoUrl(String solder, String modpack, String profileName) {
         return solder + "modpack/" + modpack + "/?cid=" + Settings.getClientId() + "&u=" + profileName;
