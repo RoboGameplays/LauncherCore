@@ -2,7 +2,7 @@
 package net.titanscraft.launchercore.restful;
 
 public class PlatformConstants {
-    public static final String PLATFORM = "http://titanscraft.net/storage/";
+    public static final String PLATFORM = "http://titanscraft.net/";
 
     public static final String API = PLATFORM + "api/";
 
